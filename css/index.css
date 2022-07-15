@@ -101,25 +101,15 @@ footer:hover{
     top: 0;
     padding: 10px 30px;     
 }
-.section__recitales{
-    width: 100%;
-    height: 100%;
-    line-height: 1.6;
-    background-image: url(../img/a.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;    
-    margin: auto;    
-}
-.section__peliculas{
-    width: 100%;
-    height: 100%;
-    line-height: 1.6;
-    background-image: url(../img/q.jpg);
-    background-size: cover;
-    background-attachment:fixed;
-    background-repeat: no-repeat;    
+.section__recitales{   
+    line-height: 1.6;  
     margin: auto;
+    background: linear-gradient(to left, black, #243F4F);    
+}
+.section__peliculas{    
+    line-height: 1.6;      
+    margin: auto;
+    background: linear-gradient(to right, black, #243F4F); 
 }
 .main__div{    
     height: 100px;    
@@ -156,23 +146,14 @@ footer:hover{
 /* begin classes for recitales */
 
 .section1__recitales{
-    width: 100%;
-    height: 100%;
+    background: linear-gradient(to right, black, #243F4F); 
     line-height: 1.6;
-    background-image: url(../img/c.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;    
+       
     margin: auto;   
 }
 .section2__recitales{
-    width: 100%;
-    height: 100%;
-    line-height: 1.6;
-    background-image: url(../img/b.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background: linear-gradient(to left, black, #243F4F); 
+    line-height: 1.6;    
     margin: auto;
 }
 .section2__recitales--bgcolor{
@@ -193,19 +174,16 @@ footer:hover{
     
 }
 .color__font{
-    color: black;
-    background-color:#293B66;
+    background: linear-gradient(to right, black, #243F4F); 
 }
 .main__div--cine{
-    color: black;
-    background-color:#293B66;
+    background: linear-gradient(to right, black, #243F4F); 
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.section__h3{
-    color: black;  
-    background-color:#293B66; 
+.section__h3{   
+    background: linear-gradient(to right, black, #243F4F); 
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -220,4 +198,7 @@ footer:hover{
 /* end classes for contacto */
 
 /* @media */
+@media only screen and (max-width: 320px){
 
+
+}
