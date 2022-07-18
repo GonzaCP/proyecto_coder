@@ -31,7 +31,7 @@ h1{
     font-weight: 500; 
     text-align: center;
     width: 100%;  
-    padding: 10px 0;  
+    padding: 25px 0;  
     margin: 0 auto; 
     background: linear-gradient(to right, black, #243F4F, black);    
 }  
@@ -43,7 +43,7 @@ h2{
     font-weight: 500; 
     text-align: center;   
     background-size: 100%;
-    padding: 0%;
+    padding: 10px 0;
     margin: 0%;
 }
 main{
@@ -57,6 +57,7 @@ h3{
     font-size: 40px;
     text-align: center;  
     text-decoration: underline;
+    padding: 10px 0;
 }
 h4{
     color: white; 
@@ -106,9 +107,9 @@ footer:hover{
     display: flex;     
     justify-content: space-between;
     align-items: center;        
-    background: linear-gradient(to right, black, grey);
+    background-color: #243F4F;
     top: 0;
-    padding: 10px 30px;     
+    padding: 20px 30px;     
 }
 .section__peliculas{ 
     display: flex;
@@ -141,10 +142,9 @@ footer:hover{
 
 /* begin classes for recitales */
 
-.section1__recitales{
+.section1__recitales{  
     background: linear-gradient(to right, black, #243F4F); 
-    line-height: 1.6;
-       
+    line-height: 1.6;       
     margin: auto;   
 }
 .section2__recitales{
@@ -167,7 +167,6 @@ footer:hover{
     background: linear-gradient(to left, black, #243F4F, black); 
     margin: 70px 0;
     padding: 20px;
-
 }
 .main__div--cine{   
     width: 100%;
@@ -184,8 +183,10 @@ footer:hover{
 /* end classes for cine */
 
 /* beggin classes for contacto */
-
-
+form{
+    text-align: center;    
+    padding: 20px 0;    
+}
 /* end classes for contacto */
 
 /* @media */
