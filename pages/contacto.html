@@ -8,10 +8,12 @@
     <link rel="shortcut icon" href="../img/favicon.ico"> 
     <!-- bootstrap link css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <!-- mi css -->
     <link rel="stylesheet" href="../css/index.css"> 
 </head>
-<body>    
-    <header class="encabezado">    
+<body>
+
+    <header class="encabezado">     
         <nav>
             <a href="../index.html">
                 <img src="../cultura_musical.png" alt="logo principal">
@@ -21,56 +23,58 @@
                     <a href="recitales.html">R e c i t a l e s</a>
                 </li>
                 <li>
-                        <a href="cine.html">C i n e</a>
+                    <a href="cine.html">C i n e</a>
                 </li>
                 <li>
-                        <a href="fotos.html">F o t o s</a>
+                    <a href="fotos.html">F o t o s</a>
                 </li>
                 <li>
-                        <a href="contacto.html">C o n t a c t o</a>
+                    <a href="contacto.html">C o n t a c t o</a>
                 </li>
             </ul>
         </nav>
     <!-- ends nav --> 
-    </header>
-    <!-- ends header -->            
+    </header> 
+    <!-- ends header -->       
     <main>
-        <h1>Contacto</h1>
-            <section>
-                <form action="ejemplo.php">
-                    <fieldset>
-                        <legend>Completá con tus datos</legend>               
-                            <label for="name">Nombre y Apellido</label>
-                            <input type="text" id="name" placeholder="Gonzalo Lopez">
-                            <br>
-                            <label for="correoElectronico">Email</label>
-                            <input type="email" id="correoElectronico" placeholder="ejemplo@algo.com"> 
-                            <br>
-                            <label for="estado">Lugar donde vive</label>
-                                <select name="" id="">
-                                    <option value="neuquen">Neuquen</option>
-                                    <option value="provincia">Otra provincia</option>  
-                                    <option value="pais">Otro país</option>                         
-                                </select>         
+        <h1>Contacto</h1>        
+        <section>
+            <form action="ejemplo.php">
+                <fieldset>
+                    <h2>Completá con tus datos</h2>            
+                    <label for="name">Nombre y Apellido</label>
+                    <input type="text" id="name" placeholder="Gonzalo Lopez">
+                    <br>
+                    <label for="correoElectronico">Email</label>
+                    <input type="email" id="correoElectronico" placeholder="ejemplo@algo.com"> 
+                    <br>
+                    <label for="estado">Lugar donde vive</label>
+                        <select name="" id="">
+                            <option value="neuquen">Neuquen</option>
+                            <option value="provincia">Otra provincia</option>  
+                            <option value="pais">Otro país</option>                         
+                            </select>         
                         <legend>Area que le interesa</legend>
-                            <label for="recital">Recitales</label>
-                            <input type="checkbox" id="recital">
-                            <label for="cine">Cine</label>
-                            <input type="checkbox" id="cine">                                     
-                    </fieldset>
-                            <br>            
-                            <label for="comentario">Dejanos tu mensaje</label>
-                            <br>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                            <br>
-                            <input type="reset" value="Borrar todo">
-                            <input type="submit" value="Enviar mensaje"> 
-                </form><!-- ends form -->
-                <div>
-                    <h2>¡Encontranos en esta ubicación!</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7901599603715!2d-68.06056108464804!3d-38.95162197956227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33196ae9bf47%3A0x8935eaa087a2d345!2sMood%20Live!5e0!3m2!1ses!2sar!4v1655419765628!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div><!-- ends map -->
-            </section>
+                        <br>
+                        <label for="recital">Recitales</label>
+                        <input type="checkbox" id="recital">
+                        <label for="cine">Cine</label>
+                        <input type="checkbox" id="cine">                                 
+                        <br>            
+                        <label for="comentario">Dejanos tu mensaje</label>
+                        <br>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <br>                       
+                        <input type="reset" value="Borrar todo">
+                        <input type="submit" value="Enviar mensaje">                       
+                </fieldset>
+            </form><!-- ends form -->
+            <div>
+                <h2>¡Encontranos en esta ubicación!</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7901599603715!2d-68.06056108464804!3d-38.95162197956227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33196ae9bf47%3A0x8935eaa087a2d345!2sMood%20Live!5e0!3m2!1ses!2sar!4v1655419765628!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- ends map -->
+        </section>
     </main>
     <footer class="pie">
         <h4>Seguinos en nuestras redes</h4>
