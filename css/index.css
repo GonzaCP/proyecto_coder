@@ -137,21 +137,10 @@ footer:hover{
 
 /* begin classes for recitales */
 
-.section1__recitales{  
-    background: linear-gradient(to right, black, #243F4F); 
-    line-height: 1.6;       
-    margin: auto;   
-}
-.section2__recitales{
-    background: linear-gradient(to left, black, #243F4F); 
+.section__recitales{
+    background: linear-gradient(to left, #243F4F, black, #243F4F); 
     line-height: 1.6;    
     margin: auto;
-}
-.section2__recitales--bgcolor{
-    background-color: #262626;  
-    width: 100%;  
-    margin: 0px auto;
-    padding: 0;
 }
 
 /* end classes for recitales */
@@ -178,17 +167,16 @@ footer:hover{
 /* end classes for cine */
 
 /* beggin classes for contacto */
-/*form{ 
-    padding: 0px 30px;
-    text-align: justify;    
-}
-#form_h2{
-    text-align: justify;
-}*/
+
 .d_flex{
     display: flex;
     justify-content: center;    
-    padding: 10px 10px;
+    padding: 10px 10px;   
+}
+.bg-color_h2{
+    background:none;
+    text-align: justify;
+
 }
 
 /* end classes for contacto */
