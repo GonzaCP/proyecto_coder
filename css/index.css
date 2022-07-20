@@ -178,9 +178,17 @@ footer:hover{
 /* end classes for cine */
 
 /* beggin classes for contacto */
-form{    
-    padding: 20px;
-    text-align: center;    
+/*form{ 
+    padding: 0px 30px;
+    text-align: justify;    
+}
+#form_h2{
+    text-align: justify;
+}*/
+.d_flex{
+    display: flex;
+    justify-content: center;    
+    padding: 10px 10px;
 }
 
 /* end classes for contacto */
