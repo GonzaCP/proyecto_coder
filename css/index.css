@@ -103,9 +103,18 @@ footer:hover{
 
 /* end animation */
 /* begin classes for index mostly but also for the others pages */
+
 .navbar_toggler_icon{
-    background-image: url(../img/descarga.png);
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url(../img/botonHamburguesa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
+
 .section__peliculas{ 
     display: flex;
     flex-direction: column;   
@@ -176,7 +185,6 @@ footer:hover{
 .bg-color_h2{
     background:none;
     text-align: justify;
-
 }
 
 /* end classes for contacto */
