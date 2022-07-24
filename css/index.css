@@ -257,19 +257,19 @@ footer:hover{
     }
     #img1{
         width: 100%;
-        height: 100vh;
+        height: 75vh;
     }
     #img2{
         width: 100%;
-        height: 100vh;
+        height: 75vh;
     }
     #img3{
         width: 100%;
-        height: 100vh;
+        height: 75vh;
     }
     #img4{
         width: 100%;
-        height: 100vh;
+        height: 75vh;
     }
     #align{
         text-align: center;
@@ -281,11 +281,5 @@ footer:hover{
         justify-items: auto;
 
     }
-    #dog{
-        width: 70%;
-        
-    }
-  
-
    
 }
