@@ -274,6 +274,17 @@ footer:hover{
     #align{
         text-align: center;
     }
+    #section_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: auto;
+
+    }
+    #dog{
+        width: 70%;
+        
+    }
   
 
    
