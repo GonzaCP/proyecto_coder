@@ -215,8 +215,17 @@ footer:hover{
     }
     h2{
         font-size: 20px;
-        text-align: start;
+        text-align: center;
         
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    p{
+        font-size: 15px;
     }
     label{
         font-size: 15px;
@@ -224,7 +233,7 @@ footer:hover{
     }  
     input{
         font-size: 20px;
-    }
+    }   
     
     .section_form-iframe{
         display: grid;
