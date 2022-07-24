@@ -206,6 +206,46 @@ footer:hover{
 
 /* @media */
 @media only screen and (max-width: 320px){
+    #nav_img{
+        width: 200px;        
+    }
+    h1{
+        font-size: 40px;
+        padding: 10pxs  ;
+    }
+    h2{
+        font-size: 20px;
+        text-align: start;
+        
+    }
+    label{
+        font-size: 15px;
+        text-align: center;
+    }  
+    input{
+        font-size: 20px;
+    }
+    
+    .section_form-iframe{
+        display: grid;
+        text-align: justify;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items:auto;
+        
+        grid-template-areas: 
+        "form"
+        "iframe";
+    } 
+    .section__form{
+        grid-area: form;        
+        width: 100%;      
+    }   
+    .section__iframe{
+        grid-area: iframe;
+        width: 100%;   
+        justify-self: start;  
+    }
 
-
+   
 }

@@ -13,41 +13,43 @@
 </head>
 <body>
     <!-- bt -->
-    <header>
-        <nav class="navbar navbar-expand-xl navbar-light">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../cultura_musical.png" alt="logo principal">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar_toggler_icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a href="recitales.html">R E C I T A L E S</a>
-                </li>
-                <li class="nav-item">
-                    <a href="cine.html">C I N E</a>
-                </li>
-                <li class="nav-item">
-                    <a href="fotos.html">F O T O S</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contacto.html">C O N T A C T O</a>
-                </li>                    
-                </ul>           
-            </div>
-            </div>
-        </nav>
-    <!-- end bt -->
-    </header>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-xl navbar-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../cultura_musical.png" alt="logo principal" id="nav_img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar_toggler_icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="recitales.html">R E C I T A L E S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cine.html">C I N E</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="fotos.html">F O T O S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html">C O N T A C T O</a>
+                    </li>                    
+                    </ul>           
+                </div>
+                </div>
+            </nav>
+        <!-- end bt -->
+        </header>
+    </div>
     <main>
         <div>
         <h1>Contacto</h1>        
         </div>
-        <section class="d_flex">
-            <div>
+        <section class="d_flex section_form-iframe">
+            <div class="section__form">
                 <form action="ejemplo.php">
                     <fieldset>
                         <h2 class="bg-color_h2">Completá con tus datos</h2>            
@@ -72,21 +74,21 @@
                             <br>            
                             <label for="comentario">Dejanos tu mensaje</label>
                             <br>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <textarea name="" id="" cols="20" rows="5"></textarea>
                             <br>                       
                             <input type="reset" value="Borrar todo">
                             <input type="submit" value="Enviar mensaje">                       
                     </fieldset>
                 </form><!-- ends form -->
             </div>
-            <div>
+            <div class="section__iframe">
                 <h2 class="bg-color_h2">Encontranos en esta ubicación</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7901599603715!2d-68.06056108464804!3d-38.95162197956227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33196ae9bf47%3A0x8935eaa087a2d345!2sMood%20Live!5e0!3m2!1ses!2sar!4v1655419765628!5m2!1ses!2sar" width="100%" height="850" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!-- ends map -->
         </section>
     </main>
-    <footer class="pie">
+    <footer id="footer" class="pie">
         <h4>Seguinos en nuestras redes</h4>
         <a href="https://twitter.com/CulturaMusicalYCinematografica" target="_blank">
             <img src="../img/twitter.png" alt="twitter" class="pie__icon--sm"></a>       
