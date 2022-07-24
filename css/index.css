@@ -102,8 +102,23 @@ footer:hover{
 }
 
 /* end animation */
-/* begin classes for index mostly but also for the others pages */
+/* class - index */
 
+#img1{
+    height: 800px;
+}
+#img2{
+    height: 800px;
+}
+#img3{
+    heigh: 800px;
+}
+.img3{
+    height: 800px;
+}
+#img4{
+    height: 800px;
+}
 .navbar_toggler_icon{
     display: inline-block;
     width: 1.5em;
