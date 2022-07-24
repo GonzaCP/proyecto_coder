@@ -255,6 +255,26 @@ footer:hover{
         width: 100%;   
         justify-self: start;  
     }
+    #img1{
+        width: 100%;
+        height: 100vh;
+    }
+    #img2{
+        width: 100%;
+        height: 100vh;
+    }
+    #img3{
+        width: 100%;
+        height: 100vh;
+    }
+    #img4{
+        width: 100%;
+        height: 100vh;
+    }
+    #align{
+        text-align: center;
+    }
+  
 
    
 }
