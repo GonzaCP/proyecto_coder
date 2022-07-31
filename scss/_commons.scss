@@ -1,0 +1,38 @@
+h1,
+h2{
+    font-family: $h1Font;
+}
+h1{
+    font-size: $sizeH1;
+    font-weight: $fontWeight;
+    text-align: $alignText;
+    width: 100%;  
+    padding: 20px 0;  
+    margin: 0 auto;
+}
+h2{       
+    font-size: $sizeH2;
+    font-weight: $fontWeight;
+    text-align: $alignText;   
+    background-size: 100%;
+    padding: 10px 0;
+    margin: 0%;
+}
+h3{
+    font-size: $sizeH3;
+    text-align: $alignText;  
+    text-decoration: none;
+    padding: 10px 0;
+}
+h4{
+    font-family: $h4Font;
+    font-size: $sizeH4;     
+    text-align: $alignText;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+p{
+    text-align: $alignText;
+    font-size: $sizeP;
+    
+}
