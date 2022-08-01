@@ -10,6 +10,7 @@
 body {   
     color: $fontColor;
     background-color: $mainColor;
+   
 }
 nav {
     ul{
@@ -63,4 +64,7 @@ footer:hover{
     background: linear-gradient(to right, black, #243F4F, black);   
     cursor: pointer;
     transition: all 2.5s;
+}
+#bodyColor{
+    background-color: $mainColor;
 }

@@ -167,6 +167,7 @@ footer:hover{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 .section__h3{     
     width: 100%;
@@ -243,8 +244,7 @@ footer:hover{
         justify-self: start;  
     }
     .img_size{
-        width: 100%;
-       
+        width: 100%;       
         height: 75vh;
         object-fit: cover;
     }    
