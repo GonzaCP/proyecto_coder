@@ -1,262 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-*{    
-    padding: 0;
-    margin: 0;
-}
-body{
-    background: linear-gradient(to right, #243F4F, black, #243F4F);
-}
-header{
-    background: linear-gradient(to right, black, #243F4F, black, #243F4F, black); 
-}
-nav ul li a{
-    display: block;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: white;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-    font-family: 'Staatliches', cursive;
-    font-size: 20px; 
-}
-nav ul li a:hover{
-    color: #0d6efd;  
-}
-h1{
-    font-family: 'Bangers', cursive;    
-    font-size: 70px;
-    font-weight: 500; 
-    text-align: center;
-    width: 100%;  
-    padding: 20px 0;  
-    margin: 0 auto; 
-    background: linear-gradient(to right, black, #243F4F, black);    
-}  
-h2{
-    font-family: 'Bangers', cursive; 
-    background: linear-gradient(to left, #243F4F, black, #243F4F);   
-    font-weight: bold;
-    font-size: 60px;
-    font-weight: 500; 
-    text-align: center;   
-    background-size: 100%;
-    padding: 10px 0;
-    margin: 0%;
-}
-main{
-    font-family: 'Boogaloo', cursive;
-    text-transform: uppercase;
-    color: white;
-    font-size: 35px;
-    font-weight: 100;
-}
-h3{
-    font-size: 40px;
-    text-align: center;  
-    text-decoration: none;
-    padding: 10px 0;
-}
-h4{
-    color: white; 
-    font-size: 20px;     
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
-    padding: 10px 0px;
-    margin: 0px auto;
-}
-main section a{
-    font-weight: bold;
-    color: blue;       
-      
-}
-main section a:active{
-    background-color: black;   
-}
-p{
-    text-align: center;
-    font-size: 25px;
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  color: white;
+  background: linear-gradient(to right, #243F4F, black, #243F4F);
 }
 
-/* animations */
-@keyframes animate_h1{
-    0%{background-color: black; width: 100%;}
-    50%{background-color: #141C0C; width: 50%;}
-    100%{background-color: #262626; width: 100%;}    
+h3 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
 }
-h1{
-    animation-name: animate_h1;
-    animation-iteration-count:unset;
-    animation-timing-function: ease-out;
-    animation-duration: 4s;
-    animation-delay: 1s;
+
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0px auto;
 }
-footer:hover{
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+nav {
+  background: linear-gradient(to right, black, #243F4F, black, #243F4F, black);
+}
+nav ul {
+  display: block;
+}
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  font-family: "Staatliches", cursive;
+  font-size: 20px;
+  color: white;
+}
+nav ul li a:hover {
+  color: linear-gradient(to right, black, #243F4F, black);
+}
+
+.navbar_toggler_icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: url(../img/botonHamburguesa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.pie {
+  height: 100%;
+  text-align: center;
+}
+
+.pie__icon--sm {
+  width: 40px;
+  margin: 10px 0px;
+}
+
+footer:hover {
+  width: 100%;
+  background: linear-gradient(to right, black, #243F4F, black);
+  cursor: pointer;
+  transition: all 2.5s;
+}
+
+.font_h1, .font_h2 {
+  font-family: "Bangers", cursive;
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.font_h1:hover, .font_h2:hover {
+  cursor: context-menu;
+}
+
+.font_h2:hover {
+  color: black;
+}
+
+.section__peliculas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.font_h1, .font_h2 {
+  background: linear-gradient(to left, black, #243F4F, black);
+}
+
+.main__div--cine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: "Boogaloo", cursive;
+  text-transform: uppercase;
+}
+main section a {
+  font-weight: bold;
+  color: blue;
+}
+main section a:active {
+  background-color: black;
+}
+
+@keyframes animate_h1 {
+  0% {
+    background-color: black;
     width: 100%;
-    background: linear-gradient(to right, black, #243F4F, black);   
-    cursor: pointer;
-    transition: all 2.5s;
-}
-
-/* end animation */
-/* class - index */
-
-.img_size{
-    height: 800px;
-}
-.navbar_toggler_icon{
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-image: url(../img/botonHamburguesa.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
-
-.section__peliculas{ 
-    display: flex;
-    flex-direction: column;   
-    align-items: center;
-    line-height: 1.6;      
-    margin: auto;      
-    /*background: linear-gradient(to right, black, #243F4F); */
-}
-.main__div{ 
-    color: white;   
-    height: 150px;    
-    padding: 10px 30px;
-    margin: 10px 20px;    
-    display: flex;    
-    /* flex-flow: row nowrap; (forma abreviada de colocar flex-direction y flex-wrap */   
-    justify-content: space-around;
-    background: linear-gradient(to left, black, #243F4F, black);     
-}
-.pie{      
-    height: 100%;
-    text-align: center;
-          
-}
-.pie__icon--sm{
-    width: 40px;
-    margin: 10px 0px;   
-}
-/* end classes for index mostly but also for the others pages*/
-
-/* begin classes for recitales */
-
-.section__recitales{
-    background: linear-gradient(to left, #243F4F, black, #243F4F); 
-    line-height: 1.6;    
-    margin: auto;
-}
-
-/* end classes for recitales */
-
-/* beggin classes for cine */
-
-.color__font{
-    background: linear-gradient(to left, black, #243F4F, black); 
-    margin: 70px 0;
-    padding: 20px;
-}
-.main__div--cine{   
+  }
+  50% {
+    background-color: #141C0C;
+    width: 50%;
+  }
+  100% {
+    background-color: #262626;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  }
 }
-.section__h3{     
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-/* end classes for cine */
-
-/* beggin classes for contacto */
-
-.d_flex{
-    display: flex;
-    justify-content: center;    
-    padding: 10px 10px;   
-}
-.bg-color_h2{
-    background:none;
-    text-align: justify;
+h1 {
+  animation-name: animate_h1;
+  animation-iteration-count: unset;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+  animation-delay: 1s;
 }
 
-/* end classes for contacto */
-
-/* @media */
-@media only screen and (max-width: 320px){
-    #nav_img{
-        width: 200px;        
-    }
-    h1{
-        font-size: 40px;
-        padding: 10pxs  ;
-    }
-    h2{
-        font-size: 20px;
-        text-align: center;
-        
-    }
-    h3{
-        font-size: 20px;
-    }
-    h4{
-        font-size: 12px;
-    }
-    p{
-        font-size: 15px;
-    }
-    label{
-        font-size: 15px;
-        text-align: center;
-    }  
-    input{
-        font-size: 20px;
-    }   
-    
-    .section_form-iframe{
-        display: grid;
-        text-align: justify;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-items:auto;
-        
-        grid-template-areas: 
-        "form"
-        "iframe";
-    } 
-    .section__form{
-        grid-area: form;        
-        width: 100%;      
-    }   
-    .section__iframe{
-        grid-area: iframe;
-        width: 100%;   
-        justify-self: start;  
-    }
-    .img_size{
-        width: 100%;       
-        height: 75vh;
-        object-fit: cover;
-    }    
-    #align{
-        text-align: center;
-    }
-    #section_grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-items: auto;
-
-    }
-   
+.img_size {
+  height: 800px;
 }
+
+.main__div {
+  height: 150px;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to left, black, #243F4F, black);
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,7 +1,20 @@
 //variables globales
 
 //colors
-$mainColor: linear-gradient(to right, #243F4F, black, #243F4F);
 $fontColor: white;
 $aquiColor: blue;
-$hoverColor: black;    
+$black: black; 
+
+//map
+$bgColor: (
+    'main': linear-gradient(to right, #243F4F, black, #243F4F),
+    'hover': linear-gradient(to right, black, #243F4F, black), 
+    'div': linear-gradient(to left, black, #243F4F, black),
+);
+
+$imgSize: 800px;
+$width-100: 100%;
+
+
+
+

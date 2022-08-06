@@ -1,0 +1,49 @@
+.font_h1{
+    font-family: $h1Font;
+    font-size: $sizeH1;
+    font-weight: $fontWeight;
+    text-align: $alignText;
+    width: $width-100;
+    padding: 20px 0;
+    margin: 0 auto;
+    &:hover{        
+        cursor: context-menu;      
+    }     
+}
+//extend
+.font_h2{ 
+    @extend .font_h1;
+    &:hover{  
+        color: $black;                
+    }
+} 
+//mixing
+@mixin d_flex($flex_d, $align_i, $justify_c, $margin){
+    display: flex; 
+    flex-direction: $flex_d;
+    align-items: $align_i;
+    justify-content: $justify_c;
+    margin: $margin;
+}
+.section__peliculas{
+    @include d_flex(column, center, space-around, auto);
+    line-height: $lineHeight;   
+}
+//map-get
+.font_h1{
+    background: map-get($map: $bgColor, $key: 'div');
+}
+
+
+
+
+
+
+
+
+//class cine
+.main__div--cine{   
+    @include d_flex(row, center , center , auto );
+    width: $width-100;        
+    padding: 20px;
+}

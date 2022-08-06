@@ -1,22 +1,7 @@
-h1,
-h2{
-    font-family: $h1Font;
-}
-h1{
-    font-size: $sizeH1;
-    font-weight: $fontWeight;
-    text-align: $alignText;
-    width: 100%;  
-    padding: 20px 0;  
-    margin: 0 auto;
-}
-h2{       
-    font-size: $sizeH2;
-    font-weight: $fontWeight;
-    text-align: $alignText;   
-    background-size: 100%;
-    padding: 10px 0;
-    margin: 0%;
+body {   
+    color: $fontColor;
+  //map-get
+   background: map-get($map: $bgColor, $key: 'main');
 }
 h3{
     font-size: $sizeH3;
@@ -33,6 +18,5 @@ h4{
 }
 p{
     text-align: $alignText;
-    font-size: $sizeP;
-    
+    font-size: $sizeP;    
 }
