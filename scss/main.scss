@@ -23,7 +23,6 @@ main{
         }
     }
 }
-
 // animations
 @keyframes animate_h1{
     0%{background-color: black; width: $width-100;}
@@ -37,14 +36,10 @@ h1{
     animation-duration: 4s;
     animation-delay: 1s;
 }
-
-// end animations
-
 //class for index
 .img_size{
     height: $imgSize;
 }
-
 .main__div{        
     height: 150px;    
     padding: 10px 30px;
@@ -54,5 +49,6 @@ h1{
    //map-get
    background: map-get($map: $bgColor, $key: 'div');
 }
+
 
 

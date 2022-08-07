@@ -33,14 +33,6 @@
 .font_h1{
     background: map-get($map: $bgColor, $key: 'div');
 }
-
-
-
-
-
-
-
-
 //class cine
 .main__div--cine{   
     @include d_flex(row, center , center , auto );
