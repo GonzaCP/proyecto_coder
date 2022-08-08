@@ -2,12 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-/*$sizesMobile: (
-    'sizeH1': 40px,
-    'sizeH2': 20px, 
-    'sizeH4': 12px,
-    'sizeP': 15px,  
-)*/
 * {
   margin: 0;
   padding: 0;
@@ -176,6 +170,14 @@ footer:hover {
   text-align: justify;
 }
 
+.d_flex_form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  justify-content: center;
+  margin: auto;
+}
+
 main {
   font-family: "Boogaloo", cursive;
   text-transform: uppercase;
@@ -236,6 +238,7 @@ input {
   }
   input {
     font-size: 20px;
+    text-align: center;
   }
   #nav_img {
     width: 200px;

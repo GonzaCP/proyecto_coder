@@ -58,4 +58,7 @@
     background: none;
     text-align: justify;
 }
-
+.d_flex_form{
+    //mixing
+    @include d_flex(column, flex, center, auto);    
+}

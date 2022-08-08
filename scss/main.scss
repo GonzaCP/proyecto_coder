@@ -36,7 +36,7 @@ label{
     font-size: $sizeP;
 }
 input{
-    font-size: $sizeP;
+    font-size: $sizeP;    
 }
 
 
@@ -57,6 +57,7 @@ input{
     }  
     input{
         font-size: $mfSizeH2;
+        text-align: center;
     }    
     #nav_img{
         width: 200px;     
