@@ -1,5 +1,5 @@
 .pie{      
-    height: 100%;
+    height: $width-100;
     text-align: $alignText;          
 }
 .pie__icon--sm{
@@ -7,7 +7,7 @@
     margin: 10px 0px;   
 }
 footer:hover{
-    width: 100%;
+    width: $width-100;
   //map-get
   background: map-get($map: $bgColor, $key: 'hover');
     cursor: pointer;

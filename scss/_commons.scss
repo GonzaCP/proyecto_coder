@@ -1,7 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {   
     color: $fontColor;
   //map-get
    background: map-get($map: $bgColor, $key: 'main');
+}
+h1, h2{
+    font-family: $h1Font;
+    font-size: $sizeH1;
+    font-weight: $fontWeight;
+    text-align: $alignText;
+    width: $width-100;
+    padding: 20px 0;
+    margin: 0 auto;
+     //map-get
+     background: map-get($map: $bgColor, $key: 'main');
+    &:hover{        
+        cursor: context-menu;     
+    }    
+}
+h2{
+    &:hover{
+        color: $verde;
+    }
 }
 h3{
     font-size: $sizeH3;
@@ -18,5 +41,6 @@ h4{
 }
 p{
     text-align: $alignText;
-    font-size: $sizeP;    
+    font-size: $sizeP;  
+    margin-bottom: 0;  
 }

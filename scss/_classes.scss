@@ -1,0 +1,61 @@
+/* classes */
+@mixin d_flex($flex_d, $align_i, $justify_c, $margin){
+    display: flex; 
+    flex-direction: $flex_d;
+    align-items: $align_i;
+    justify-content: $justify_c;
+    margin: $margin;
+}    
+/* index classes */
+.section__peliculas{
+    //mixing
+    @include d_flex(column, center, space-around, auto);
+    line-height: $lineHeight;   
+}
+.img_size{
+    height: $imgSize;
+}
+.main__div{      
+   height: 150px;
+   padding: 10px 30px;  
+   //mixing
+   @include d_flex(row, flex , space-around, 10px 20px);  
+   //map-get
+   background: map-get($map: $bgColor, $key: 'div');
+}
+/* recitales classes */
+.section__recitales{
+    //map-get
+    background: map-get($map: $bgColor, $key: 'div');
+    line-height: $lineHeight;    
+    margin-bottom: 0; 
+}
+/* cine classes */
+.main__div--cine{  
+    //mixing 
+    @include d_flex(row, center , center , auto );
+    width: $width-100;        
+    padding: 20px;
+}
+.color__font{
+    //map-get
+    background: map-get($map: $bgColor, $key: 'div');    
+    padding: 20px;
+}
+.section__h3{     
+    width: $width-100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+/* contacto classes*/
+.d_flex{
+    //mixing
+    @include d_flex(row, flex , space-around, auto);  
+    padding: 10px; 
+}
+.bg-color_h2{
+    background: none;
+    text-align: justify;
+}
+
