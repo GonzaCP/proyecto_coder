@@ -24,6 +24,7 @@ h1, h2 {
 }
 h1:hover, h2:hover {
   cursor: context-menu;
+  color: #243F4F;
 }
 
 h2:hover {
@@ -190,29 +191,6 @@ main section a:active {
   background-color: black;
 }
 
-/* animations */
-@keyframes animate_h1 {
-  0% {
-    background-color: black;
-    width: 100%;
-  }
-  50% {
-    background-color: #141C0C;
-    width: 50%;
-  }
-  100% {
-    background-color: #262626;
-    width: 100%;
-  }
-}
-h1 {
-  animation-name: animate_h1;
-  animation-iteration-count: unset;
-  animation-timing-function: ease-out;
-  animation-duration: 4s;
-  animation-delay: 1s;
-}
-
 label {
   font-size: 25px;
 }
@@ -277,10 +255,26 @@ input {
     text-align: center;
   }
   #section_grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-items: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: space-around;
+    margin: 10px 20px;
+    height: 100%;
+    width: 90%;
+  }
+  .main__div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    justify-content: space-around;
+    margin: 10px 20px;
+    height: 100%;
+    width: 90%;
+    background: linear-gradient(to top, black, #243F4F, black);
   }
 }
 

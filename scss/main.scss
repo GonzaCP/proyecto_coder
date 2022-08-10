@@ -19,19 +19,8 @@ main{
         }
     }
 }
-/* animations */
-@keyframes animate_h1{
-    0%{background-color: black; width: $width-100;}
-    50%{background-color: #141C0C; width: 50%;}
-    100%{background-color: #262626; width: $width-100;}    
-}
-h1{
-    animation-name: animate_h1;
-    animation-iteration-count:unset;
-    animation-timing-function: ease-out;
-    animation-duration: 4s;
-    animation-delay: 1s;
-}
+
+
 label{
     font-size: $sizeP;
 }
@@ -43,7 +32,7 @@ input{
 /* @media */
  @media only screen and (max-width: 320px){         
     h3{
-        font-size: $mfSizeH2;
+        font-size: $mfSizeH2;      
     }
     h4{
         font-size: $mfSizeH4;
@@ -97,12 +86,29 @@ input{
     #align{
         text-align: center;
     }
-    #section_grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-items: auto;
+    #section_grid{        
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+        //mixing
+        @include d_flex(row, space-around, space-around, 10px 20px);         
+        height: 100%;       
+        width: 90%;  
+       
+       
+     
+        
+    
     }  
+    .main__div2{
+        //mixing
+   @include d_flex(column, flex , space-around, 10px 20px);         
+        height: 100%;       
+        width: 90%;  
+        //map-get
+   background: map-get($map: $bgColor, $key: 'top');  
+    }
+  
 }
 
 
