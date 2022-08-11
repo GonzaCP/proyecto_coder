@@ -128,7 +128,7 @@ footer:hover {
 
 /* recitales classes */
 .section__recitales {
-  background: linear-gradient(to left, black, #243F4F, black);
+  background: linear-gradient(to right, #243F4F, black, #243F4F);
   line-height: 1.6;
   margin-bottom: 0;
 }

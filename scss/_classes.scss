@@ -27,7 +27,7 @@
 /* recitales classes */
 .section__recitales{
     //map-get
-    background: map-get($map: $bgColor, $key: 'div');
+    background: map-get($map: $bgColor, $key: 'main');
     line-height: $lineHeight;    
     margin-bottom: 0; 
 }
