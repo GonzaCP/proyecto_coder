@@ -26,6 +26,9 @@
    //map-get
    background: map-get($map: $bgColor, $key: 'div');
 }
+.wP{
+    width: 18%;
+}
 
 /* recitales classes */
 .section__recitales{

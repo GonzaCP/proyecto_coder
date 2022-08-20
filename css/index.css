@@ -126,6 +126,10 @@ footer:hover {
   background: linear-gradient(to left, black, #243F4F, black);
 }
 
+.wP {
+  width: 18%;
+}
+
 /* recitales classes */
 .section__recitales {
   background: linear-gradient(to right, #243F4F, black, #243F4F);
@@ -205,24 +209,54 @@ input {
   #nav_img {
     width: 400px;
   }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+  img {
+    object-fit: cover;
+  }
+  #main__div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 20px;
+    height: 100%;
+    width: 95%;
+  }
+  #wP {
+    width: 55%;
+  }
+  .sizeImg {
+    width: 200px;
+  }
 }
 /* @media */
 @media only screen and (max-width: 320px) {
   h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
   h4 {
     font-size: 12px;
   }
   p {
-    font-size: 15px;
+    font-size: 12px;
   }
   label {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
   }
   input {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
   iframe {
@@ -237,11 +271,11 @@ input {
     width: 200px;
   }
   .font_h1 {
-    font-size: 40px;
+    font-size: 15px;
     padding: 10px;
   }
   .font_h2 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
   .section_form-iframe {

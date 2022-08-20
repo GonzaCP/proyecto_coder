@@ -31,6 +31,34 @@ input{
     #nav_img{
         width: 400px;
     }
+    h1{
+        font-size: $tabletH1;
+    }
+    h2{
+        font-size: $tabletH2;
+    }
+    h3{
+        font-size: $tabletH3;
+    }
+    p{
+        font-size: $tabletP;
+    }
+    img{
+        object-fit: cover;
+    }
+    #main__div3{
+        @include d_flex(column, center, space-around, 10px 20px);  
+      
+
+        height: 100%;    
+        width: 95%;
+    }
+    #wP{
+        width: 55%;
+    }
+    .sizeImg{
+        width: 200px;
+    }
 
 
 
