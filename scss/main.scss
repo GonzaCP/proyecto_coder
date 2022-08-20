@@ -48,8 +48,6 @@ input{
     }
     #main__div3{
         @include d_flex(column, center, space-around, 10px 20px);  
-      
-
         height: 100%;    
         width: 95%;
     }
@@ -59,10 +57,6 @@ input{
     .sizeImg{
         width: 200px;
     }
-
-
-
-
 }
 /* @media */
 @media only screen and (max-width: 320px){         
@@ -89,7 +83,7 @@ input{
         width: 70%;      
     }   
     #nav_img{
-        width: 200px;     
+        width: 160px;     
     }   
     .font_h1{
         font-size: $mfSizeH1;
