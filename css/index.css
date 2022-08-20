@@ -169,7 +169,7 @@ footer:hover {
 
 .bg-color_h2 {
   background: none;
-  text-align: justify;
+  text-align: center;
 }
 
 .d_flex_form {
@@ -200,6 +200,12 @@ input {
   font-size: 25px;
 }
 
+/* @media */
+@media only screen and (max-width: 768px) {
+  #nav_img {
+    width: 400px;
+  }
+}
 /* @media */
 @media only screen and (max-width: 320px) {
   h3 {

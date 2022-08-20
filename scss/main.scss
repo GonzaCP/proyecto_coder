@@ -25,6 +25,17 @@ label{
 input{
     font-size: $sizeP;    
 }
+
+/* @media */
+@media only screen and (max-width: 768px){
+    #nav_img{
+        width: 400px;
+    }
+
+
+
+
+}
 /* @media */
 @media only screen and (max-width: 320px){         
     h3{
@@ -108,9 +119,3 @@ input{
     }
 }
 
-@media only screen and (max-width: 768px){
-
-
-
-
-}
