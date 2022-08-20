@@ -19,18 +19,14 @@ main{
         }
     }
 }
-
-
 label{
     font-size: $sizeP;
 }
 input{
     font-size: $sizeP;    
 }
-
-
 /* @media */
- @media only screen and (max-width: 320px){         
+@media only screen and (max-width: 320px){         
     h3{
         font-size: $mfSizeH2;      
     }
@@ -93,12 +89,7 @@ input{
         //mixing
         @include d_flex(row, space-around, space-around, 10px 20px);         
         height: 100%;       
-        width: 90%;  
-       
-       
-     
-        
-    
+        width: 90%; 
     }  
     .main__div2{
         //mixing
@@ -108,7 +99,18 @@ input{
         //map-get
    background: map-get($map: $bgColor, $key: 'top');  
     }
+    .width{
+        padding: 50px;
+
+    }
+
+
   
 }
 
+@media only screen and (max-width: 768px){
 
+
+
+
+}

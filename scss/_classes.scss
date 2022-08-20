@@ -1,4 +1,3 @@
-/* classes */
 @mixin d_flex($flex_d, $align_i, $justify_c, $margin){
     display: flex; 
     flex-direction: $flex_d;
@@ -7,6 +6,10 @@
     margin: $margin;
 }    
 /* index classes */
+.peliculas{
+   background: none;
+   padding: 20px;
+}
 .section__peliculas{
     //mixing
     @include d_flex(column, center, space-around, auto);
@@ -61,5 +64,5 @@
 }
 .d_flex_form{
     //mixing
-    @include d_flex(column, flex, center, auto);    
+    @include d_flex(column, flex, center, auto);     
 }

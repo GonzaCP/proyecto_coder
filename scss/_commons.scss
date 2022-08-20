@@ -22,11 +22,6 @@ h1, h2{
         color: $verde;  
     }    
 }
-h2{
-    &:hover{
-        color: $verde;
-    }
-}
 h3{
     font-size: $sizeH3;
     text-align: $alignText;  
