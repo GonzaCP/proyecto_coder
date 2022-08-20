@@ -219,6 +219,14 @@ input {
     font-size: 20px;
     text-align: center;
   }
+  iframe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 70%;
+  }
   #nav_img {
     width: 200px;
   }
@@ -278,14 +286,6 @@ input {
   }
   .width_mq {
     width: 50%;
-  }
-  iframe {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
-    width: 70%;
   }
 }
 

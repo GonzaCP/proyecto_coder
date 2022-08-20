@@ -43,7 +43,12 @@ input{
     input{
         font-size: $mfSizeH2;
         text-align: center;
-    }    
+    } 
+    iframe{
+        //mixing
+        @include d_flex(row, center, space-around, auto);  
+        width: 70%;      
+    }   
     #nav_img{
         width: 200px;     
     }   
@@ -101,15 +106,6 @@ input{
     .width_mq{
        width: 50%;
     }
-    iframe{
-        //mixing
-        @include d_flex(row, center, space-around, auto);  
-        width: 70%;
-      
-    }
-
-
-  
 }
 
 @media only screen and (max-width: 768px){
