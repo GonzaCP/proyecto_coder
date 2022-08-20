@@ -59,8 +59,7 @@ input{
         display: grid;
         text-align: justify;
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-items:auto;        
+        grid-template-rows: auto;   
         grid-template-areas: 
         "form"
         "iframe";
@@ -98,10 +97,15 @@ input{
         width: 90%;  
         //map-get
    background: map-get($map: $bgColor, $key: 'top');  
+    }    
+    .width_mq{
+       width: 50%;
     }
-    .width{
-        padding: 50px;
-
+    iframe{
+        //mixing
+        @include d_flex(row, center, space-around, auto);  
+        width: 70%;
+      
     }
 
 

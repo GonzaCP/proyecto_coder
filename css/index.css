@@ -159,11 +159,12 @@ footer:hover {
 /* contacto classes*/
 .d_flex {
   display: flex;
-  flex-direction: row;
-  align-items: flex;
+  flex-direction: column;
+  align-items: strech;
   justify-content: space-around;
   margin: auto;
-  padding: 10px;
+  padding-bottom: 20px;
+  width: 70%;
 }
 
 .bg-color_h2 {
@@ -234,7 +235,6 @@ input {
     text-align: justify;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    justify-items: auto;
     grid-template-areas: "form" "iframe";
   }
   .section__form {
@@ -276,8 +276,16 @@ input {
     width: 90%;
     background: linear-gradient(to top, black, #243F4F, black);
   }
-  .width {
-    padding: 50px;
+  .width_mq {
+    width: 50%;
+  }
+  iframe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 70%;
   }
 }
 

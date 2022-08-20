@@ -55,8 +55,10 @@
 /* contacto classes*/
 .d_flex{
     //mixing
-    @include d_flex(row, flex , space-around, auto);  
-    padding: 10px; 
+    @include d_flex(column, strech , space-around, auto); 
+    padding-bottom: 20px;
+    width: 70%;
+    
 }
 .bg-color_h2{
     background: none;
@@ -64,5 +66,7 @@
 }
 .d_flex_form{
     //mixing
-    @include d_flex(column, flex, center, auto);     
+    @include d_flex(column, flex, center, auto);
+   
 }
+
