@@ -224,7 +224,7 @@ input {
   img {
     object-fit: cover;
   }
-  #main__div3 {
+  .main__div3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,7 +268,7 @@ input {
     width: 70%;
   }
   #nav_img {
-    width: 160px;
+    width: 100px;
   }
   .font_h1 {
     font-size: 15px;

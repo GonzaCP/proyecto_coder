@@ -4,7 +4,7 @@
 @import "navBar";
 @import "footer";
 @import "classes";
-@import "mixins";
+
 
 main{
     font-family: $mainFont;
@@ -46,7 +46,7 @@ input{
     img{
         object-fit: cover;
     }
-    #main__div3{
+    .main__div3{
         @include d_flex(column, center, space-around, 10px 20px);  
         height: 100%;    
         width: 95%;
@@ -83,7 +83,7 @@ input{
         width: 70%;      
     }   
     #nav_img{
-        width: 160px;     
+        width: 100px;     
     }   
     .font_h1{
         font-size: $mfSizeH1;
@@ -117,7 +117,7 @@ input{
         object-fit: cover;
     }    
     #align{
-        text-align: center;
+        text-align: $alignText;
     }
     #section_grid{        
        display: flex;
@@ -132,7 +132,9 @@ input{
         //mixing
    @include d_flex(column, flex , space-around, 10px 20px);         
         height: 100%;       
-        width: 90%;  
+        width: 90%;
+   
+        
         //map-get
    background: map-get($map: $bgColor, $key: 'top');  
     }    
