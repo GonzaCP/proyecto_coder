@@ -206,9 +206,6 @@ input {
 
 /* @media */
 @media only screen and (max-width: 768px) {
-  #nav_img {
-    width: 400px;
-  }
   h1 {
     font-size: 35px;
   }
@@ -239,6 +236,9 @@ input {
   .sizeImg {
     width: 200px;
   }
+  #nav_img {
+    width: 400px;
+  }
 }
 /* @media */
 @media only screen and (max-width: 320px) {
@@ -268,7 +268,7 @@ input {
     width: 70%;
   }
   #nav_img {
-    width: 100px;
+    width: 180px;
   }
   .font_h1 {
     font-size: 15px;

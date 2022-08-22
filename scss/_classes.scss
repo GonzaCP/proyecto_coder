@@ -29,7 +29,6 @@
 .wP{
     width: 18%;
 }
-
 /* recitales classes */
 .section__recitales{
     //map-get
@@ -68,7 +67,5 @@
 }
 .d_flex_form{
     //mixing
-    @include d_flex(column, flex, center, auto);
-   
+    @include d_flex(column, flex, center, auto);   
 }
-

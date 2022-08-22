@@ -25,12 +25,8 @@ label{
 input{
     font-size: $sizeP;    
 }
-
 /* @media */
-@media only screen and (max-width: 768px){
-    #nav_img{
-        width: 400px;
-    }
+@media only screen and (max-width: 768px){    
     h1{
         font-size: $tabletH1;
     }
@@ -56,6 +52,9 @@ input{
     }
     .sizeImg{
         width: 200px;
+    }
+    #nav_img{
+        width: 400px;
     }
 }
 /* @media */
@@ -83,7 +82,7 @@ input{
         width: 70%;      
     }   
     #nav_img{
-        width: 100px;     
+        width: 180px;     
     }   
     .font_h1{
         font-size: $mfSizeH1;
@@ -132,14 +131,11 @@ input{
         //mixing
    @include d_flex(column, flex , space-around, 10px 20px);         
         height: 100%;       
-        width: 90%;
-   
-        
+        width: 90%;  
         //map-get
    background: map-get($map: $bgColor, $key: 'top');  
     }    
     .width_mq{
        width: 50%;
-    }
+    }    
 }
-
