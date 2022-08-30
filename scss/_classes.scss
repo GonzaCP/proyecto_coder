@@ -54,6 +54,18 @@
     flex-wrap: wrap;
     justify-content: space-evenly;    
 }
+/* fotos classes */
+.fotos_section{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-content: space-between;
+    padding: 10px;     
+}
+.fotos_div{
+    margin: 10px 15px;   
+}
+
 /* contacto classes*/
 .d_flex{
     //mixing

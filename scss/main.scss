@@ -115,10 +115,7 @@ input{
     #align{
         text-align: $alignText;
     }
-    #section_grid{        
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
+    #section_grid{       
         //mixing
         @include d_flex(row, space-around, space-around, 10px 20px);         
         height: 100%;       
@@ -134,5 +131,15 @@ input{
     }    
     .width_mq{
        width: 50%;
+    }  
+    .sizeImg2{
+        width: 250px;
     }    
+    .fotos_div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        object-fit: cover;        
+    }   
+
 }
